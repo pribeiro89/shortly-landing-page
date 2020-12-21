@@ -1,6 +1,28 @@
 module.exports = {
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        primary: {
+          cyan: '#2acfcf',
+          violet: '#3b3054'
+        },
+        secondary: {
+          red: '#f46262'
+        },
+        neutral: {
+          gray: '#bfbfbf',
+          'violet-gray': '#9e9aa7',
+          'dark-blue': '#35323e',
+          'dark-violet': '#232127'
+        }
+      },
+      backgroundImage: theme => ({
+        'boost-desktop': "url('/src/assets/images/bg-boost-desktop.svg')",
+        'boost-mobile': "url('/src/assets/images/bg-boost-mobile.svg')",
+        'shorten-desktop': "url('/src/assets/images/bg-shorten-desktop.svg')",
+        'shorten-mobile': "url('/src/assets/images/bg-shorten-mobile.svg')",
+      })
+    }
   },
   variants: {},
   plugins: [],

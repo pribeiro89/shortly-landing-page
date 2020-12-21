@@ -32,9 +32,6 @@
     "react-scripts:start": "sleep 5 && react-scripts start",
     "react-scripts:build": "react-scripts build"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": {
     "production": [
       ">0.2%",
