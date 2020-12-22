@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './assets/images/logo.svg';
-import heroImage from './assets/images/illustration-working.svg';
+import Hero from './components/Hero';
 import Navbar from './components/Navbar';
 
 const App = () => {
@@ -8,33 +8,7 @@ const App = () => {
     <div className="h-full">
       <Navbar />
       <main>
-        <section className="bg-white relative overflow-hidden">
-          <img
-            src={heroImage}
-            alt=""
-            className="
-              h-80 object-cover object-left
-              sm:absolute right-0 sm:transform sm:translate-x-20
-            "
-          />
-          <div className="container mx-auto flex flex-col">
-            <h1>More than just shorter links</h1>
-
-            <p>Build your brand’s recognition and get detailed insights
-            on how your links are performing.</p>
-
-            <button>Get Started</button>
-            <div className="
-              bg-shorten-mobile sm:bg-shorten-mobile bg-primary-violet bg-cover bg-center
-              absolute bottom-0 -translate-y-1/2
-            ">
-              <form action="">
-                <input type="text" />
-                <button type="submit">Shorten It!</button>
-              </form>
-            </div>
-          </div>
-        </section>
+        <Hero />
         <section className="bg-neutral-gray">
           <div className="container mx-auto">
             <h2 className="text-center">

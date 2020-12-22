@@ -7,7 +7,7 @@ const Navbar = () => {
   const [showNav, setShowNav] = useState(false);
 
   return (
-    <header className="bg-white pt-8">
+    <header className="bg-white mt-10">
       <div className="container flex items-center">
         <Logo className="flex-shrink-0" />
         <div className="flex-grow ml-4 text-neutral-violet-gray">
