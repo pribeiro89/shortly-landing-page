@@ -1,26 +1,12 @@
 import React from 'react';
 import logo from './assets/images/logo.svg';
 import heroImage from './assets/images/illustration-working.svg';
+import Navbar from './components/Navbar';
 
 const App = () => {
   return (
     <div className="h-full">
-      <header className="bg-white pt-6 px-4">
-        <div className="container mx-auto flex items-center">
-          <img src={logo} alt="logo" />
-          <nav className="flex justify-between w-full">
-            <ul className="flex">
-              <li>Features</li>
-              <li>Pricing</li>
-              <li>Resources</li>
-            </ul>
-            <div className="flex">
-              <button>Login</button>
-              <button>Sign Up</button>
-            </div>
-          </nav>
-        </div>
-      </header>
+      <Navbar />
       <main>
         <section className="bg-white relative overflow-hidden">
           <img
