@@ -22,8 +22,8 @@ const Hero = () => {
           </button>
         </div>
         <div className="
-          bg-shorten-mobile sm:bg-shorten-mobile bg-primary-violet bg-cover bg-center
-          absolute bottom-0 -translate-y-1/2
+          bg-shorten-mobile sm:bg-shorten-desktop bg-primary-violet bg-cover bg-center
+          absolute bottom-0 transform translate-y-1/2 p-10 rounded-lg
         ">
           <form action="">
             <input type="text" />

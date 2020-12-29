@@ -2,6 +2,7 @@ import React from 'react';
 import logo from './assets/images/logo.svg';
 import Hero from './components/Hero';
 import Navbar from './components/Navbar';
+import Statistics from './components/Statistics';
 
 const App = () => {
   return (
@@ -9,47 +10,7 @@ const App = () => {
       <Navbar />
       <main>
         <Hero />
-        <section className="bg-neutral-gray">
-          <div className="container mx-auto">
-            <h2 className="text-center">
-              Advanced Statistics
-            </h2>
-            <div className="text-center">
-              Track how your links are performing across the web with our
-              advanced statistics dashboard.
-            </div>
-            <div>
-              <div></div>
-              <div>
-                Brand Recognition
-              </div>
-              <div>
-                Boost your brand recognition with each click. Generic links don’t
-                mean a thing. Branded links help instil confidence in your content.
-              </div>
-            </div>
-            <div>
-              <div></div>
-              <div>
-                Detailed Records
-              </div>
-              <div>
-                Gain insights into who is clicking your links. Knowing when and where
-                people engage with your content helps inform better decisions.
-              </div>
-            </div>
-            <div>
-              <div></div>
-              <div>
-                Fully Customizable
-              </div>
-              <div>
-                Improve brand awareness and content discoverability through customizable
-                links, supercharging audience engagement.
-              </div>
-            </div>
-          </div>
-        </section>
+        <Statistics />
         <section className="bg-boost-mobile sm:bg-boost-desktop bg-primary-violet bg-cover bg-center">
           <h2>Boost your links today</h2>
           <button>Get Started</button>
