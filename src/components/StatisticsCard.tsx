@@ -10,7 +10,7 @@ const StatisticsCard = (props: Props) => {
   const { title, content, icon } = props;
 
   return (
-    <div className="z-0 bg-white px-8 mt-20 rounded-md text-center md:text-left">
+    <div className="bg-white px-8 mt-20 lg:mt-0 rounded-md text-center lg:text-left">
       <div className="inline-block transform -translate-y-1/2 bg-primary-violet rounded-full p-5">
         {icon}
       </div>
